@@ -27,7 +27,7 @@ Includes **classical ML pipelines**, **clustering + PCA**, **recommender systems
 
 ---
 
-## Why this repo (for hiring)
+## Why this repo
 This repository demonstrates:
 - **End-to-end ML workflow**: data loading → preprocessing → training → evaluation → conclusions
 - **Model comparison beyond accuracy**: `classification_report`, confusion matrices, learning curves, cross-validation where applicable
@@ -36,15 +36,8 @@ This repository demonstrates:
 
 ---
 
-## Repository structure
-- `notebooks/` — all experiments and solutions (executed without errors)
-- `src/` — reusable helpers (seeding, visualization, metrics, model builders)
-- `data/` — local datasets (kept empty / git-ignored)
-
----
-
-## Highlights (quick navigation)
-### Classical ML: Human Activity Recognition (accelerometer)
+## Highlights
+### Classical ML: Human Activity Recognition
 - `05_human_activity_recognition_svm_rf.ipynb`
   - Time-domain feature engineering
   - **SVM vs RandomForest**
